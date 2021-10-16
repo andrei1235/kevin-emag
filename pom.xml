@@ -19,11 +19,22 @@
         <spock-core.version>1.0-groovy-2.4</spock-core.version>
         <gmavenplus.plugin.version>1.5</gmavenplus.plugin.version>
         <cglib-nodep.version>3.2.4</cglib-nodep.version>
+        <swagger2.version>3.0.0</swagger2.version>
     </properties>
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-boot-starter</artifactId>
+            <version>${swagger2.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger-ui</artifactId>
+            <version>${swagger2.version}</version>
         </dependency>
 
         <dependency>
